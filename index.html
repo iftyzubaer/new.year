@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>New Year | Countdown</title>
+    <link rel='icon' href='icon.png'/>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <a href="#"> <span>n</span>ew<span>y</span>ear<span>c</span>ountdown</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="card">
+            <div class="card_inner">
+
+                <div class="card_face fornt">
+                    <section class="container">
+                        <div class="card1">
+                            <div class="content">
+                                <div class="countdown">
+                    
+                                    <div class="day">
+                                        <h3 class="count-day"></h3>
+                                        <h3>Days</h3>
+                                    </div>
+                    
+                                    <div class="hour">
+                                        <h3 class="count-hour"></h3>
+                                        <h3>Hours</h3>
+                                    </div>
+                    
+                                    <div class="min">
+                                        <h3 class="count-min"></h3>
+                                        <h3>Minutes</h3>
+                                    </div>
+                    
+                                    <div class="sec">
+                                        <h3 class="count-sec"></h3>
+                                        <h3>Seconds</h3>
+                                    </div>
+                    
+                                </div>
+
+                                <p>Time until Saturday, 1 January 2022</p>
+
+                                <a href="#" class="fliper" style="font-weight: bold;">Click Me!</a>
+            
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card_face back">
+                    <div class="card_content">
+                        <div class="card_header">
+                            <h3>Happy New Year!</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>May this year bring new happiness, new goals, new achievements, and a lot of new inspirations on your life. Wishing you a year fully loaded with happiness.</p>
+                        </div>
+                        <a href="#" class="fliper1">Return!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+    </main>
+
+    <section class="foot">
+        <footer>
+            <span>Designed By <a href="https://www.instagram.com/ibtesam.waseq/" target="_blank">iBtesamWaseq</a> <br> Created By <a href="https://iftyzubaer.github.io/site/"target="_blank">Ifty Zubaer</a> <br> &copy; 2020 All rights reserved.</span>
+        </footer>
+    </section>
+    
+    <script src="countdown.js"></script>
+    <script src="tilt.js"></script>
+    <script src="flip.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".card"),{
+		max: 25,
+		speed: 400
+	});
+    </script>
+
+</body>
+</html>
